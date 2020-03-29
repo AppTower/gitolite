@@ -1,7 +1,7 @@
 FROM alpine
 
 ARG USERNAME=git
-ARG VERSION=v3.6.9
+ARG VERSION=v3.6.10
 
 RUN apk update \
     && apk upgrade \
